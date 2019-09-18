@@ -20,8 +20,10 @@ public class MainActivity extends AppCompatActivity {
         setview();
     }
     public void setview(){
-        red.setText(Integer.toString(score_red));
-        blue.setText(Integer.toString(score_blue));
+        String red_score = Integer.toString(score_red);
+        String blue_score = Integer.toString(score_blue);
+        red.setText(red_score);
+        blue.setText(blue_score);
     }
 
     public void buttons(View plus){
